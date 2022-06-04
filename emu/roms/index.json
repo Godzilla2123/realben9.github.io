@@ -52,7 +52,7 @@
         "file": "pelsson_v_5_6.nes"
     },
     {
-        "name": "SMB2_U",
+        "name": "SMB2-U",
         "file": "smbu.nes"
     },
     {
@@ -90,6 +90,10 @@
     {
         "name": "Tetris GYM v4",
         "file": "tetrisgym_v_4.nes"
+    },
+    {
+        "name": "Tetris GYM v5.2",
+        "file": "tetrisgym_v_5_2.nes"
     },
     {
         "name": "Tetris No 4L",
