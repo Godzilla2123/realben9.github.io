@@ -14952,6 +14952,7 @@ Game.Launch=function()
 		=======================================================================================*/
 		
 		Game.killShimmers();
+	    javascript:(function() {    Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');}());
 		
 		//booooo
 		Game.RuinTheFun=function(silent)
@@ -15966,6 +15967,3 @@ window.onload=function()
 		else loadLangAndLaunch(lang);
 	}
 };
-window.addEventListener('load',() => {
-  Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');
-});
