@@ -1305,29 +1305,8 @@
 
 				// Get box2d elements
 
-				elements0 = getElementsByClass("box2d");
-				elements1 = getElementsByClass("loadingScreen");
-				elements2 = getElementsByClass("lnXdpd");
-				elements3 = getElementsByClass("gb_e gb_f");
-				elements4 = getElementsByClass("MV3Tnb");
-				elements5 = getElementsByClass("gNO89b");
-				elements6 = getElementsByClass("gbqfbb");
-				elements7 = getElementsByClass("langSelectButton title");
-				elements8 = getElementsByClass("topBar");
-				elements9 = getElementsByClass("title");
-				elementsA = getElementsByClass("separatorLeft");
-				elementsB = getElementsByClass("separatorRight");
-				elementsC = getElementsByClass("page-content");
-				elementsD = getElementsByClass("ui-button-text");
-				elementsE = getElementsByClass("doge2lol");
-				elementsF = getElementsByClass("ptreon");
-				elementsG = getElementsByClass("discordcta");
-				elementsH = getElementsByClass("p-landing__start--play");
-				elementsI = getElementsByClass("google-signin-box");
-				elementsJ = getElementsByClass("button");
-				elementsK = getElementsByClass("btn filled");
-				elementsL = getElementsByClass("btn");
-				elements = elements0.concat(elements1,elements2,elements3,elements4,elements5,elements6,elements7,elements8,elements9,elementsA,elementsB,elementsC,elementsD,elementsE,elementsF,elementsG,elementsH,elementsI,elementsJ,elementsK,elementsL);
+				elements0 = getElementsByClass("box2d");elements1 = getElementsByClass("loadingScreen");elements2 = getElementsByClass("lnXdpd");elements3 = getElementsByClass("gb_e gb_f");elements4 = getElementsByClass("MV3Tnb");elements5 = getElementsByClass("gNO89b");elements6 = getElementsByClass("gbqfbb");elements7 = getElementsByClass("langSelectButton title");elements8 = getElementsByClass("topBar");elements9 = getElementsByClass("title");elementsA = getElementsByClass("separatorLeft");elementsB = getElementsByClass("separatorRight");elementsC = getElementsByClass("page-header");elementsD = getElementsByClass("ui-button-text");elementsE = getElementsByClass("doge2lol");elementsF = getElementsByClass("ptreon");elementsG = getElementsByClass("discordcta");elementsH = getElementsByClass("p-landing__start--play");elementsI = getElementsByClass("google-signin-box");elementsJ = getElementsByClass("button");elementsK = getElementsByClass("btn filled");elementsL = getElementsByClass("btn");elementsM = getElementsByClass("rounded");elementsN = getElementsByClass("footer");elementsO = getElementsByClass("lang");elementsP = getElementsByClass("icon");elementsQ = getElementsByClass("logo");elementsR = getElementsByClass("diagram");elementsS = getElementsByClass("flavour-text");elementsT = getElementsByClass("box-content");elementsU = getElementsByClass("media-thumb");
+				elements = elements0.concat(elements1,elements2,elements3,elements4,elements5,elements6,elements7,elements8,elements9,elementsA,elementsB,elementsC,elementsD,elementsE,elementsF,elementsG,elementsH,elementsI,elementsJ,elementsK,elementsL,elementsM,elementsN,elementsO,elementsP,elementsQ,elementsR,elementsS,elementsT,elementsU);
 				console.log("Boxes Detected :", elements)
 
 				for ( var i = 0; i < elements.length; i ++ ) {
@@ -1793,7 +1772,7 @@
 				var elsLen = els.length
 
 				for (i = 0, j = 0; i < elsLen; i++) {
-
+			// sometimes has incompatibilities
 					var classes = els[i].className.split(' ');
 					for (k = 0; k < classes.length; k++)
 						if ( classes[k] == searchClass )
