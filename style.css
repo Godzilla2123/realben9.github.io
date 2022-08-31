@@ -10,6 +10,7 @@ body { background-color:lightBlue; }
             left: 0;
             position: absolute;
             top: 0;
+            min-height: 100%;
             width: 100%;
             z-index:0;
             -webkit-animation: snow 1000s linear infinite;
