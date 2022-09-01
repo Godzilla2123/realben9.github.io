@@ -58,9 +58,10 @@
 			height: 100%;
 			transition: all 0.5s;
 		}
+		
+		#stage0 { visibility: visible; }
 	</style>
 </head>
-
 <body>
 
 	<div id="splash__image">
@@ -78,7 +79,7 @@
 //------------------------------------------------------------------------------//
 			
 config = {
-    "showFPS": false,				//	show fps display - always false in prod
+    "showFPS": true,				//	show fps display - always false in prod
     "debug": true,					//	disable JS blobind - always false in prod
     "title": "TestPlayer",			//	disable JS blobind - always false in prod
     "filename": "",					//	filename of game - no extension - must be set for each config
@@ -192,5 +193,4 @@ for (let key in config.binary){ config.binary[key].path = config.binary[key].pat
 
 	</script>
 </body>
-
 </html>
